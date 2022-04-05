@@ -1,0 +1,29 @@
+In this file do not use the equal sign in a comment because that is the triger to read an input.
+
+* Try and make this a power of 2 and even better a power of 32. Blocks can only get to 1024 and 
+* and streaming multiprosessors have warps of 32.
+* 256 512 1024 2048 4096 8192 16384 32768 65536 131072 262144
+NumberOfBodies = 256;
+
+TotalRunTime = 1000000.0;
+
+Dt = 0.001;
+
+* This is a lennard-Jones type force G*m1*m2/(r^2) - H*m1*m2/(r^4).
+* If you want a gravity type force just set G to your gravity and set H equal 0.
+G = 0.01;
+
+H = 0.0;
+
+Epsalon = 0.01;
+
+MassOfBody = 2.0;
+
+DiameterOfBody = 0.01;
+
+VelocityMax = 0.0;
+
+Drag = 0.1;
+
+DrawRate = 20;
+
